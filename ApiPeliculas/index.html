@@ -61,4 +61,35 @@
                     <p class="card-text">${director} - ${gender}</p>                                    
                 </div>
             </div> 
+
+
+
+
+
+
+
+HTML:
+<ul class="list-group list-group-horizontal">
+        <li class="list-group-item" id="imgFilm"></li>
+        <li class="list-group-item" id="listTitle"></li>        
+        <li class="list-group-item" id="directorCard"></li>
+      </ul>
+      <ul class="list-group list-group-horizontal-sm">
+        <li class="list-group-item" id="listTitle">An item</li>
+        <li class="list-group-item">A second item</li>
+        <li class="list-group-item">A third item</li>
+      </ul>
+      <ul class="list-group list-group-horizontal-md">
+        <li class="list-group-item">An item</li>
+        <li class="list-group-item">A second item</li>
+        <li class="list-group-item">A third item</li>
+      </ul>
+
+JS:
+let movieCard = document.getElementById("listTitle");
+movieCard.innerHTML += `<h5 class="card-title">${id}. ${title}</h5>` 
+let imgFilm = document.getElementById("imgFilm");
+imgFilm.innerHTML += `<img src="${img}" class="figure-img img-fluid rounded" alt="...">`
+let directorCard = document.getElementById("directorCard");
+directorCard.innerHTML += `<p class="card-text">${director}- ${gender}</p>`
 -->

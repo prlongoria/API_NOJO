@@ -1,13 +1,56 @@
+body {
+    background-color: black;
+}
+
 #moviesSection {
     background-color: blue;
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 50px;
+    color: repeat(3, yellow);
+
 }
 
 h1 {
    font-weight: bold;
+   text-align: center;
+   color: white;
 }
 h2 {
     color: red;
+    font-weight: bold;
+    text-align: center;
 }
+
 .card-text {
+    color: black;
+}
+.card-group {
+    border: 1.5px solid blue;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: black;
+    transition: 0.20s all ease-in-out;
+
+}
+.card-group:hover{
+    transform: scale(1.1);
+}
+.col-md-6 col-sm-6 {
+    
+}
+.figure-img img-fluid rounded {
+    
+    
+}
+.card-body {
+    
+}
+#image {
+    border: 3px solid blue;
+}
+#text {
     color: blue;
 }
