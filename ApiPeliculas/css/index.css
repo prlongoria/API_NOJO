@@ -1,14 +1,16 @@
 body {
     background-color: black;
+    background-image: url(https://i.pinimg.com/originals/e3/b0/4e/e3b04e7d7e45fd06c00510612b580cae.gif);
+   
 }
 
 #moviesSection {
-    background-color: blue;
+    background-color: transparent;
     display: grid;
     grid-gap: 2em;
     grid-template-columns: repeat(3, 1fr);
     margin-left: 50px;
-    color: repeat(3, yellow);
+    
 
 }
 
@@ -16,11 +18,21 @@ h1 {
    font-weight: bold;
    text-align: center;
    color: white;
+   
+}
+#cinemaHeader {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 100px;
 }
 h2 {
     color: red;
     font-weight: bold;
     text-align: center;
+}
+#news {
+    font-size: 50px;
 }
 
 .card-text {
@@ -38,19 +50,43 @@ h2 {
 .card-group:hover{
     transform: scale(1.1);
 }
-.col-md-6 col-sm-6 {
-    
-}
-.figure-img img-fluid rounded {
-    
-    
-}
-.card-body {
-    
-}
 #image {
     border: 3px solid blue;
 }
 #text {
     color: blue;
 }
+
+
+.animacion {
+    /*position: absolute;*/
+
+animation-name: parpadeo;
+animation-duration: 1s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+
+-webkit-animation-name:parpadeo;
+-webkit-animation-duration: 1s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{  
+0% { opacity: 1.0; }
+50% { opacity: 0.0; }
+100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+0% { opacity: 1.0; }
+50% { opacity: 0.0; }
+100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+0% { opacity: 1.0; }
+50% { opacity: 0.0; }
+100% { opacity: 1.0; }
+}
+

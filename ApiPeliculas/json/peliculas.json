@@ -26,9 +26,42 @@
       "clasificacion": "Drama",
       "info": "https://www.filmaffinity.com/es/film504743.html"
       
+      
     },
     {
       "id": 4,
+      "caratula": "https://1.bp.blogspot.com/-ko7sp2X_zpw/Xq9_PzjoR2I/AAAAAAAABIA/D8qD5qpiIb00YlRgPOiqKETCWYRT-Q2DQCLcBGAsYHQ/s1600/Rogue%2BOne%2BUna%2BHistoria%2Bde%2BStar%2BWars.jpg",
+      "nombre": "Rogue One",
+      "director": "Gareth Edwards",
+      "clasificacion": "Drama",
+      "info": "https://www.filmaffinity.com/es/film769224.html"
+    },
+    {
+      "id": 5,
+     "caratula": "https://i.pinimg.com/736x/05/40/a8/0540a8a7d94fb16e01c4348a895f8cad--star-wars-episode--episode-iv.jpg",
+     "nombre": "Una Nueva Esperanza",
+      "director": "George Lucas",
+      "clasificacion": "Drama",
+      "info": "https://www.filmaffinity.com/es/film712041.html"
+    },
+    {
+      "id": 6,
+     "caratula": "https://th.bing.com/th/id/R.f8106bf51ae2898eb49078b0bbb17559?rik=MhTHcGkmLRvL0Q&riu=http%3a%2f%2fwww.dcine.org%2fsites%2fdefault%2ffiles%2fcarteles%2fel-imperio-contraataca-arge.jpg&ehk=krXaVUZoAw9I5l8USyTQHzoyNfoZXnXizQByyXLuWzI%3d&risl=&pid=ImgRaw&r=0",
+     "nombre": "El Imperio Contraataca",
+      "director": "George Lucas",
+      "clasificacion": "Drama",
+      "info": "https://www.filmaffinity.com/es/film605090.html"
+    },
+    {
+      "id": 7,
+     "caratula": "https://th.bing.com/th/id/OIP.2wYJEbcWTMyl_Edmdb5B3wHaMM?pid=ImgDet&rs=1",
+     "nombre": "El Retorno del Jedi",
+      "director": "George Lucas",
+      "clasificacion": "Drama",
+      "info": "https://www.filmaffinity.com/es/film226172.html"
+    },
+    {
+      "id": 8,
       "caratula": "https://th.bing.com/th/id/OIP.oVSXJArra_OG8yixpwMZ6wHaLH?pid=ImgDet&rs=1",
       "nombre": "Pulp Fiction",
       "director": "Tarantino",
@@ -37,7 +70,7 @@
       
     },
     {
-      "id": 5,
+      "id": 9,
       "caratula": "https://th.bing.com/th/id/OIP.e7Abgwd90eP8dJ8_0mLmxgHaLH?pid=ImgDet&rs=1",
       "nombre": "300",
       "director": "Zack Snyder",
@@ -45,7 +78,7 @@
       "info": "https://www.filmaffinity.com/es/film186830.html"
     },
     {
-      "id": 6,
+      "id": 10,
       "caratula": "https://th.bing.com/th/id/OIP.2TudgsYmX0Ne4jEgibW08gHaL7?pid=ImgDet&rs=1",
       "nombre": "El silencio de los corderos",
       "director": "Jonathan Demme",
@@ -53,26 +86,16 @@
       "info": "https://www.filmaffinity.com/es/film768790.html"
     },
     {
-      "id": 7,
+      "id": 11,
       "caratula": "https://th.bing.com/th/id/R.c953677d2781f0a013a8da0b900ad996?rik=rIeK4u6CUULdGw&riu=http%3a%2f%2fwww.mubis.es%2fmedia%2fcovers%2f1696%2f2649%2fforrest-gump-portada-original.jpg&ehk=9t3n05YKNRH1HgoYaS%2fxwHVYFeBmdudczazw7q7nJUQ%3d&risl=&pid=ImgRaw&r=0",
       "nombre": "Forrest Gump",
       "director": "Robert Zemeckis",
       "clasificacion": "Comedia",
       "info": "https://www.filmaffinity.com/es/film444796.html"
     },
-    {   
- 
-        "id": 8,
-        "caratula": "https://th.bing.com/th/id/OIP.psYHzeA9jmO4g0grYBukbgHaKo?pid=ImgDet&rs=1",
-        "nombre": "El sexto sentido",
-        "director": "M. Night Shyamalan",
-        "clasificacion": "Drama",
-        "info": "https://www.filmaffinity.com/es/film607127.html"    
-      
-    },
     {
       
-      "id": 9,
+      "id": 12,
       "caratula": "https://th.bing.com/th/id/R.21611e5ef5470e56a7c8b4209d2fa766?rik=QQjUtzkspt4VTA&riu=http%3a%2f%2fwww.mubis.es%2fmedia%2fcovers%2f2097%2f6099%2fbatman-l_cover.jpg&ehk=iIDFkrPTl7QGBIaBHgB6b1inMvq7L181GdBUzl3dpRQ%3d&risl=&pid=ImgRaw&r=0",
       "nombre": "Batman",
       "director": "M. Night Shyamalan",

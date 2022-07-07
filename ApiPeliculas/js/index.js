@@ -33,3 +33,12 @@ fetchMoviesJSON().then((movies) => {
        `;
   }
 });
+
+
+function initAnimation(){
+  document.getElementById('news').className ='animacion';
+}
+
+function endAnimation(){
+   document.getElementById('news').className ='';
+}
